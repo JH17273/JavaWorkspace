@@ -6,24 +6,27 @@ public class Snack {
 	private String flavor; // 맛
 	private int numOf; // 개수
 	private int price; // 가격
-	
-public Snack(){
-}
-public Snack(String kind,String name,String flavor,int numOf,int price) {
-	this.kind = kind;
-	this.name = name;
-	this.flavor = flavor;
-	this.numOf = numOf;
-	this.price = price;
+
+	public Snack() {
 	}
 
-public void setKind(String kind) {
-	this.kind = kind;
-}
-public void setName(String name) {
-	this.name = name;
+	public Snack(String kind, String name, String flavor, int numOf, int price) {
+		this.kind = kind;
+		this.name = name;
+		this.flavor = flavor;
+		this.numOf = numOf;
+		this.price = price;
 	}
-public void setFlavor(String flavor) {
-	this.flavor
-}
+
+	public void setKind(String kind) {
+		this.kind = kind;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setFlavor(String flavor) {
+		this.flavor = flavor;
+	}
 }
